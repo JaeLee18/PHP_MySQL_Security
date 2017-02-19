@@ -1,5 +1,4 @@
 <?php
-
 // Make sure output buffering is turned on before attempting page redirects.
 // Best to turn it on in php.ini, but the line below ensures it is on.
 ob_start();

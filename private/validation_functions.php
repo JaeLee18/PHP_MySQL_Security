@@ -1,7 +1,7 @@
 <?php
 
   // is_blank('abcd')
-  function is_blank($value='') {
+  function is_blank($value) {
     return !isset($value) || trim($value) == '';
   }
 
